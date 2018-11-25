@@ -1,0 +1,50 @@
+~*.*
+lib_managed/
+project/*
+target/
+
+
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+#SHITTY output not in target directory
+build.log
+.DS_Store
+derby.log
+
+*.db
+
+.lib
+sbt
+
+logs
+sandbox/db
+
+# sublime-text
+*.sublime-workspace
+
+# webapp
+
+webapp/node_modules/
+webapp/public/components
+webapp/.sass-cache
